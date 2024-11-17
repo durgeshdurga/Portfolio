@@ -1,5 +1,3 @@
-
-
 // import { skills } from "../../data";
 
 // export default function Skills() {
@@ -34,17 +32,29 @@ import { skills } from "../../data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-10 md:py-16 px-4" style={{ backgroundColor: "#1F2937" }}>
+    <section
+      id="skills"
+      className="py-10 md:py-16 px-4"
+      style={{ backgroundColor: "#1F2937" }}
+    >
       <div className="container mx-auto text-center mb-10">
-        <h1 className="text-3xl md:text-4xl font-medium text-white mb-4">Skills &amp; Technologies</h1>
-        <p className="text-neutral-400">I have acquired these skills through internships and projects.</p>
+        <h1 className="text-3xl md:text-4xl font-medium text-white mb-4">
+          Skills &amp; Technologies
+        </h1>
+        <p className="text-neutral-400">
+          I have acquired these skills through internships and projects.
+        </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {skills.map((skill) => (
-          <div key={skill.name} className="rounded-lg p-4 bg-gray-900">
-            <p className="text-white">{skill.name}</p>
+          <div key={skill.name} className=" relative rounded-lg p-4 bg-gray-900">
+            <p className=" text-white">{skill.name}</p>
+            <p className="absolute  top-4 text-white" style={{ left: `${skill.level - 10}%` }} >{skill.level}%</p>
             <div className="relative w-full bg-neutral-500 h-2 rounded-md mt-2">
-              <div className="bg-green-700 h-2 rounded-md" style={{ width: `${skill.level}%` }}></div>
+              <div
+                className="bg-green-700 h-2 rounded-md"
+                style={{ width: `${skill.level}%` }}
+              ></div>
             </div>
           </div>
         ))}
@@ -52,6 +62,3 @@ export default function Skills() {
     </section>
   );
 }
-
-
-
