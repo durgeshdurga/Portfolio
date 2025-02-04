@@ -21,8 +21,8 @@ export const skills = [
         subtitle: "MERN Stack",
         description:
             "PerfumeStore is a fully responsive e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
-        link: "https://github.com/durgeshdurga/Portfolio",
-          deployedLink: "https://durgesh-durga-portfolio.netlify.app/",
+        link: "https://github.com/durgeshdurga/PerfumeStore",
+          deployedLink: "https://perfumestore-frontend.onrender.com/",
         technologyUsed: "ReactJS, NodeJS,MongoDB, ExpressJS & Tailwind"
       },
     {
