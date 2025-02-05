@@ -53,13 +53,13 @@ const Home = () => {
         </h1>
         <p className="text-xl md:text-2xl mt-1">Full Stack Developer</p>
         <p className="text-md md:text-xl mt-2 leading-relaxed">
-          I aspire to contribute to a dynamic organization by leveraging my
-          expertise in assessing and integrating new technologies, overseeing
-          technology budgets, and fostering collaboration across diverse teams
-          to innovate and meet business goals. With proficiency in C++, web
-          development, and a focus on exploring MERN development, I bring a
-          versatile skill set aimed at driving technological advancement and
-          achieving sustainable business success.
+          I am a passionate MERN Stack Developer skilled in building scalable
+          and responsive web applications using MongoDB, Express.js, React, and
+          Node.js. With a strong foundation in DSA and problem-solving, I
+          develop dynamic platforms, including e-commerce sites and interactive
+          dashboards. Additionally, I have mentored 600+ students in DSA and
+          debugging. My goal is to create innovative digital solutions while
+          continuously learning and growing.
         </p>
       </div>
     </div>
